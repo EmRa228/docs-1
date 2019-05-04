@@ -21,11 +21,7 @@ sudo yum install -y curl && curl -sL https://rpm.nodesource.com/setup_8.x | sudo
 Install build tools, MongoDB, nodejs and graphicsmagick:
 
 ```
-sudo yum install -y gcc-c++ make mongodb-org nodejs
-```
-
-```
-sudo yum install -y epel-release && sudo yum install -y GraphicsMagick
+sudo yum install -y gcc-c++ make mongodb-org nodejs epel-release GraphicsMagick
 ```
 
 Using npm install inherits and n, and the node version required by Rocket.Chat:
